@@ -73,35 +73,35 @@ git clone https://github.com/AmrSHalaby202005/Pulse-Fit.git
 
 ### Hero
 
-![hero](screenshots/hero.png)
+![hero](./assets/screenshots/hero.png)
 
 ### Features
 
-![features](screenshots/features.png)
+![features](./assets/screenshots/features.png)
 
 ### About
 
-![about](screenshots/about.png)
+![about](./assets/screenshots/about.png)
 
 ### Pricing
 
-![pricing](screenshots/pricing.png)
+![pricing](./assets/screenshots/pricing.png)
 
 ### testimonials
 
-![testimonials](screenshots/testimonials.png)
+![testimonials](./assets/screenshots/testimonials.png)
 
 ### Faq
 
-![faq](screenshots/faq.png)
+![faq](./assets/screenshots/faq.png)
 
 ### Cta
 
-![cta](screenshots/cta.png)
+![cta](./assets/screenshots/cta.png)
 
 ### Footer
 
-![footer](screenshots/footer.png)
+![footer](./assets/screenshots/footer.png)
 
 ---
 
