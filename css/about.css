@@ -1,0 +1,191 @@
+/* ==================== About Section ==================== */
+
+.about {
+  padding: 100px 0;
+  background-color: var(--bg-primary);
+}
+
+/* ---------- Section Header ---------- */
+
+.about .section-header {
+  max-width: 700px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.about .section-subtitle {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.about .section-title {
+  color: var(--heading-color);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about .section-description {
+  color: var(--text-color);
+  line-height: 1.8;
+}
+
+/* ---------- About Content ---------- */
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(30px, 5vw, 100px);
+}
+
+.about-images,
+.about-text {
+  flex: 1;
+  min-width: 0;
+}
+/* ---------- Images ---------- */
+
+.about-images {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.orbit {
+  position: relative;
+  width: min(100%, 520px);
+  aspect-ratio: 1;
+  margin: auto;
+  border: 2px dashed rgba(0, 230, 118, 0.2);
+  border-radius: 50%;
+}
+
+.orbit-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: orbit 18s linear infinite;
+}
+
+.orbit:hover .orbit-item {
+  animation-play-state: paused;
+}
+
+.orbit-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 700;
+  box-shadow: 0 0 30px rgba(0, 230, 118, 0.45);
+}
+
+.about-image {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translate(-50%, 0);
+  transition: all 0.4s ease;
+}
+
+.about-image:hover {
+  transform: translate(-50%, 0) scale(1.08);
+  box-shadow: 0 0 25px var(--primary-color);
+  z-index: 100;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+/* ترتيب الصور */
+
+.item-1 {
+  animation-delay: 0s;
+}
+
+.item-2 {
+  animation-delay: -4.5s;
+}
+
+.item-3 {
+  animation-delay: -9s;
+}
+
+.item-4 {
+  animation-delay: -13.5s;
+}
+
+/* ---------- Text ---------- */
+
+.about-text {
+  flex: 1;
+}
+
+.about-list {
+  list-style: none;
+  align-items: center;
+  margin: 20px 30px;
+}
+
+.about-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  margin-bottom: 20px;
+
+  color: var(--heading-color);
+  font-size: 1.5rem;
+}
+
+.about-list i {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.about .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 34px;
+  margin: 20px 30px;
+  background-color: var(--primary-color);
+  color: black;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about .btn:hover {
+  background: transparent;
+  color: var(--primary-color);
+  transform: translateY(-4px);
+}

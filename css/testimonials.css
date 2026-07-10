@@ -1,0 +1,161 @@
+/* ==================================================
+   Testimonials Section
+================================================== */
+
+.testimonials {
+  padding: 100px 0;
+  background: var(--bg-primary);
+}
+
+/* ==================================================
+   Section Header
+================================================== */
+
+.testimonials .section-header {
+  max-width: 700px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.testimonials .section-subtitle {
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* ==================================================
+   Testimonials Slider
+================================================== */
+
+.testimonials-slider {
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
+/* Make all slides equal height */
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+
+.swiper-slide {
+  display: flex;
+  align-self: stretch;
+  height: auto;
+}
+
+/* ==================================================
+   Testimonial Card
+================================================== */
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px;
+  margin: 15px 0;
+
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 35px rgba(0, 230, 118, 0.18);
+}
+
+/* ==================================================
+   Rating
+================================================== */
+
+.testimonial-rating {
+  margin-bottom: 20px;
+}
+
+.testimonial-rating i {
+  margin-right: 3px;
+  color: #ffc107;
+  font-size: 1rem;
+}
+
+/* ==================================================
+   Review Text
+================================================== */
+
+.testimonial-text {
+  flex: 1;
+  margin-bottom: 30px;
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* ==================================================
+   User Information
+================================================== */
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.testimonial-user img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.user-info h3 {
+  margin-bottom: 5px;
+  color: var(--heading-color);
+  font-size: 1.1rem;
+}
+
+.user-info span {
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+/* ==================================================
+   Swiper Pagination
+================================================== */
+
+.testimonials .swiper-pagination {
+  position: static;
+  margin-top: 50px;
+}
+
+.testimonials .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.testimonials .swiper-pagination-bullet:hover {
+  background: var(--primary-color);
+  opacity: 0.8;
+}
+
+.testimonials .swiper-pagination-bullet-active {
+  width: 30px;
+  border-radius: 20px;
+  background: var(--primary-color);
+  opacity: 1;
+}

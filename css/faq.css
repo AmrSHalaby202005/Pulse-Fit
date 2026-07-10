@@ -1,0 +1,117 @@
+/* ==================== FAQ Section ==================== */
+
+.faq {
+  padding: 100px 0;
+  background: var(--bg-secondary);
+}
+
+/* ---------- Section Header ---------- */
+
+.faq .section-header {
+  max-width: 700px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.faq .section-subtitle {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.faq .section-title {
+  color: var(--heading-color);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.faq .section-description {
+  color: var(--text-color);
+  line-height: 1.8;
+}
+
+/* ---------- FAQ Content ---------- */
+
+.faq-content {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ---------- FAQ Card ---------- */
+
+.faq-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.35s ease;
+}
+
+.faq-item:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-4px);
+}
+
+/* ---------- Question ---------- */
+
+.faq-question {
+  width: 100%;
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  color: var(--heading-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.faq-question span {
+  padding-right: 20px;
+}
+
+.faq-question i {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+
+/* ---------- Answer ---------- */
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.faq-answer p {
+  padding: 0 30px 25px;
+  color: var(--text-color);
+  line-height: 1.8;
+}
+
+/* ---------- Active ---------- */
+
+.faq-item.active {
+  border-color: var(--primary-color);
+}
+
+.faq-item.active .faq-answer {
+  max-height: 250px;
+}
+
+.faq-item.active .faq-question i {
+  transform: rotate(45deg);
+}

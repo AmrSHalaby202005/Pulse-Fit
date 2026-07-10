@@ -1,0 +1,104 @@
+/* ==================================================
+   Features Section
+================================================== */
+
+.features {
+  padding: 100px 0 120px;
+  background-color: var(--bg-secondary);
+}
+
+/* ==================================================
+   Section Header
+================================================== */
+
+.features .section-header {
+  max-width: 800px;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.features .section-subtitle {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.features .section-title {
+  margin-bottom: 20px;
+  color: var(--heading-color);
+  font-size: 2.5rem;
+}
+
+.features .section-description {
+  color: var(--text-color);
+  line-height: 1.8;
+}
+
+/* ==================================================
+   Features Grid
+================================================== */
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 80px;
+}
+
+/* ==================================================
+   Feature Card
+================================================== */
+
+.feature-card {
+  padding: 15px;
+  text-align: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  transition: all 0.35s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: var(--primary-color);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* ==================================================
+   Feature Icon
+================================================== */
+
+.feature-card i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 60px;
+  margin: 0 auto 25px;
+  color: var(--primary-color);
+  background: rgba(0, 230, 118, 0.1);
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+/* ==================================================
+   Feature Title
+================================================== */
+
+.feature-card h3 {
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+/* ==================================================
+   Feature Description
+================================================== */
+
+.feature-card p {
+  color: var(--text-color);
+  line-height: 1.5;
+}

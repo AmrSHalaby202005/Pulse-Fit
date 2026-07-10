@@ -1,0 +1,87 @@
+/* ////////////////////////////////////////////////////// */
+/*                    PULSEFIT STYLESHEET                 */
+/* ////////////////////////////////////////////////////// */
+
+/* ====================================================== */
+/* VARIABLES */
+/* ====================================================== */
+
+:root {
+  /* ---------- Background Colors ---------- */
+  --bg-primary: #0b0f19;
+  --bg-secondary: #0d1424;
+  --bg-tertiary: #0f172a;
+
+  /* ---------- Brand Colors ---------- */
+  --primary-color: #c8ff00;
+  --secondary-color: #0b0b0b;
+
+  /* ---------- Text Colors ---------- */
+  --white-color: #f0f6e4;
+  --gray-color: #b5b5b5;
+  --heading-color: #ffffff;
+  --text-color: #b8c1cc;
+
+  /* ---------- Cards ---------- */
+  --card-bg: #182232;
+  --section-bg: #111827;
+  --dark-card: rgba(255, 255, 255, 0.08);
+  --border-color: rgba(255, 255, 255, 0.12);
+
+  /* ---------- Effects ---------- */
+  --shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  --radius: 20px;
+
+  /* ---------- Transition ---------- */
+  --transition: 0.3s ease;
+}
+
+/* ====================================================== */
+/* RESET */
+/* ====================================================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====================================================== */
+/* GLOBAL STYLES */
+/* ====================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--secondary-color);
+  color: var(--white-color);
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ====================================================== */
+/* LAYOUT */
+/* ====================================================== */
+
+.container {
+  width: min(1200px, 90%);
+  margin-inline: auto;
+}

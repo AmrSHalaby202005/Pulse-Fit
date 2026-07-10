@@ -1,0 +1,155 @@
+/* ==================== Offers Section ==================== */
+
+.offers {
+  padding: 100px 0;
+  background-color: var(--bg-secondary);
+}
+
+/* ---------- Header ---------- */
+
+.offers .section-header {
+  max-width: 700px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.offers .section-subtitle {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* ---------- Cards ---------- */
+
+.offers-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.offer-card {
+  position: relative;
+  padding: 40px 30px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  text-align: center;
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+
+.offer-card:hover {
+  transform: translateY(-12px);
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 35px rgba(0, 230, 118, 0.15);
+}
+
+/* ---------- Featured Card ---------- */
+
+.offer-card.featured {
+  border: 2px solid var(--primary-color);
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 230, 118, 0.18);
+}
+
+.offer-card.featured:hover {
+  transform: scale(1.05) translateY(-12px);
+}
+
+/* ---------- Badge ---------- */
+
+.offer-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 50px;
+  background: rgba(0, 230, 118, 0.15);
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* ---------- Title ---------- */
+
+.offer-title {
+  font-size: 1.8rem;
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+/* ---------- Price ---------- */
+
+.offer-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.old-price {
+  color: #777;
+  text-decoration: line-through;
+  font-size: 1.2rem;
+}
+
+.new-price {
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+/* ---------- List ---------- */
+
+.offer-list {
+  list-style: none;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.offer-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: var(--text-color);
+}
+
+.offer-list i {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+/* ---------- Button ---------- */
+
+.offer-card .btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 14px 30px;
+
+  background-color: var(--primary-color);
+  color: #000;
+
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.offer-card .btn:hover {
+  background: transparent;
+  color: var(--primary-color);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 230, 118, 0.25);
+}
