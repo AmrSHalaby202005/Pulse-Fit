@@ -60,7 +60,7 @@ Landing-Page/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/AmrSHalaby202005/Pulse-Fit.git
 ```
 
 2. Open the project folder.
@@ -71,21 +71,37 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 
 ## Screenshots
 
-### Home
+### Hero
 
-![Home](screenshots/home.png)
+![hero](screenshots/1 (1).png)
+
+### Features
+
+![features](screenshots/1 (2).png)
 
 ### About
 
-![About](screenshots/about.png)
+![about](screenshots/1 (3).png)
 
-### Services
+### Pricing
 
-![Services](screenshots/services.png)
+![pricing](screenshots/1 (4).png)
 
-### Contact
+### testimonials
 
-![Contact](screenshots/contact.png)
+![testimonials](screenshots/1 (5).png)
+
+### Faq
+
+![faq](screenshots/1 (6).png)
+
+### Cta
+
+![cta](screenshots/1 (7).png)
+
+### Footer
+
+![footer](screenshots/1 (8).png)
 
 ---
 
