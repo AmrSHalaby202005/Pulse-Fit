@@ -1,46 +1,39 @@
-/* ==================================================
-   Features Section
-================================================== */
+/* ////////////////////////////////////////////////////// */
+/* FEATURES SECTION */
+/* ////////////////////////////////////////////////////// */
 
 .features {
   padding: 100px 0 120px;
   background-color: var(--bg-secondary);
 }
 
-/* ==================================================
-   Section Header
-================================================== */
+/* ////////////////////////////////////////////////////// */
+/* SECTION HEADER */
+/* ////////////////////////////////////////////////////// */
 
 .features .section-header {
-  max-width: 800px;
-  margin: 10px auto 0;
+  max-width: 700px;
+  margin: auto;
   text-align: center;
 }
+
+/* ////////////////////////////////////////////////////// */
+/* SECTION SUBTITLE */
+/* ////////////////////////////////////////////////////// */
 
 .features .section-subtitle {
   display: inline-block;
   margin-bottom: 15px;
   color: var(--primary-color);
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-.features .section-title {
-  margin-bottom: 20px;
-  color: var(--heading-color);
-  font-size: 2.5rem;
-}
-
-.features .section-description {
-  color: var(--text-color);
-  line-height: 1.8;
-}
-
-/* ==================================================
-   Features Grid
-================================================== */
+/* ////////////////////////////////////////////////////// */
+/* FEATURES GRID */
+/* ////////////////////////////////////////////////////// */
 
 .features-grid {
   display: grid;
@@ -49,9 +42,9 @@
   margin-top: 80px;
 }
 
-/* ==================================================
-   Feature Card
-================================================== */
+/* ////////////////////////////////////////////////////// */
+/* FEATURE CARD */
+/* ////////////////////////////////////////////////////// */
 
 .feature-card {
   padding: 15px;
@@ -59,18 +52,20 @@
   background: var(--card-bg);
   border: 1px solid var(--border-color);
   border-radius: 30px;
-  transition: all 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .feature-card:hover {
-  transform: translateY(-8px) scale(1.02);
   border-color: var(--primary-color);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 15px 35px rgba(0, 230, 118, 0.18);
 }
 
-/* ==================================================
-   Feature Icon
-================================================== */
+/* ////////////////////////////////////////////////////// */
+/* FEATURE ICON */
+/* ////////////////////////////////////////////////////// */
 
 .feature-card i {
   display: flex;
@@ -85,18 +80,18 @@
   font-size: 30px;
 }
 
-/* ==================================================
-   Feature Title
-================================================== */
+/* ////////////////////////////////////////////////////// */
+/* FEATURE TITLE */
+/* ////////////////////////////////////////////////////// */
 
 .feature-card h3 {
   margin-bottom: 15px;
   color: var(--heading-color);
 }
 
-/* ==================================================
-   Feature Description
-================================================== */
+/* ////////////////////////////////////////////////////// */
+/* FEATURE DESCRIPTION */
+/* ////////////////////////////////////////////////////// */
 
 .feature-card p {
   color: var(--text-color);

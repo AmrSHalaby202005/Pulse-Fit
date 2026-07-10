@@ -153,6 +153,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
+  margin-top: 45px;
 }
 
 /* ////////////////////////////////////////////////////// */
@@ -166,7 +167,6 @@
   align-items: center;
   gap: 10px;
   padding: 14px 10px;
-  margin-top: 45px;
   text-align: center;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.06);
@@ -253,19 +253,16 @@
 /* UTILITIES */
 /* ////////////////////////////////////////////////////// */
 
-/* منع الصور من النزول تحت بسبب الـ inline */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* إزالة شكل الأزرار الافتراضي */
 button {
   font: inherit;
 }
 
-/* إزالة لون الضغط الأزرق على الموبايل */
 a,
 button {
   -webkit-tap-highlight-color: transparent;
